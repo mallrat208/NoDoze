@@ -1,5 +1,5 @@
 # NoDoze
-No Doze, the No Sleeping Mod for Minecraft Forge 1.10.2
+No Doze, the No Sleeping Mod for Minecraft Forge. There are versions for 1.10.2 and 1.11.2
 
 No Doze removes the abiliy to sleep by setting the result of the PlayerSleepInBedEvent to "OTHER_PROBLEM"
 
