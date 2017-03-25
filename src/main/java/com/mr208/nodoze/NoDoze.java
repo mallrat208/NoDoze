@@ -51,7 +51,7 @@ public class NoDoze {
 			EntityPlayer entityPlayer = event.getEntityPlayer();
 			entityPlayer.setSpawnPoint(event.getPos(), false);
 			entityPlayer.setSpawnChunk(event.getPos(), false, event.getEntityPlayer().dimension);
-			entityPlayer.addChatComponentMessage(new TextComponentTranslation("nodoze.spawn.set"));
+			entityPlayer.sendStatusMessage(new TextComponentTranslation("nodoze.spawn.set"),true);
 		}
 
 	}
