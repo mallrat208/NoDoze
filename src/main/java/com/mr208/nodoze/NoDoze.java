@@ -12,7 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-@Mod(modid = NoDoze.MODID, name = NoDoze.MODNAME, version = NoDoze.MODVERSION)
+@Mod(modid = NoDoze.MODID, name = NoDoze.MODNAME, version = NoDoze.MODVERSION, acceptedMinecraftVersions = "[1.12,1.13)")
 public class NoDoze {
 
 	public static final String MODID = "nodoze";
