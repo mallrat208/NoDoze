@@ -1,21 +1,22 @@
-## gradle
-.gradle
-build/
-
-## ForgeGradle
-run
-
-## eclipse
-eclipse
+# eclipse
+bin
+*.launch
 .settings
 .metadata
 .classpath
 .project
-bin
 
-## intellij
+# idea
 out
-.idea
-*.iml
 *.ipr
 *.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
